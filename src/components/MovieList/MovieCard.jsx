@@ -14,11 +14,11 @@ const MovieCard = ({movie, id}) => {
         <div className="align_items movie_data">
           <p className="movie_release_date">{movie.release_date}</p>
           <p className="align_items movie_rating">
-            {movie.rate_average} <img className="movie_star_icon" src={Star} />
+            {movie.vote_average} <img className="movie_star_icon" src={Star} />
           </p>
         </div>
         <p className="movie_description">
-        {movie.overview}
+        {`${movie.overview.slice(0,100)}...`}
         </p>
       </div>
     </a>

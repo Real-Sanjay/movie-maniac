@@ -5,6 +5,7 @@
 
 .movie_list > h2 {
     font-size: 28px;
+    color: var(--heading_color);
 }
 
 .movie_list_fc {
@@ -17,6 +18,7 @@
      font-weight: 600;
      cursor: pointer;
      padding: 5px 10px;
+     color: var(--heading_color);
 }
 
 .movie_list_sortby {
@@ -43,7 +45,7 @@
 }
 
 .movie_list_sort_item.active{
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid var(--heading_color);
     font-weight: 600;
 }
 
